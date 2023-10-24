@@ -111,7 +111,7 @@
                 style="@style/operatorbutton"
                 android:onClick="onOperatorClick"
                 android:id="@+id/btn_mul"
-                android:text="x"/>
+                android:text="*"/>
 
 
 

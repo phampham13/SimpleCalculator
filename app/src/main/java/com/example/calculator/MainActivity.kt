@@ -58,7 +58,14 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onOperatorClick(view: View) {
+        if(!stateError && lastNumberic){
             binding.dataTv.append((view as Button).text)
+            lastDot = false
+            lastNumberic = false
+            onEqual()
+
+        }
+
     }
 
     fun onDigitClick(view: View) {
